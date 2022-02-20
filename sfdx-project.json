@@ -5,14 +5,20 @@
             "default": true,
             "package": "UnpackagedTestWorks",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.0.NEXT",
+            "unpackagedMetadata": {
+                "path": "unpackaged"
+            }
         },
         {
             "path": "does-not-work",
             "default": false,
             "package": "UnpackagedTestDoesNotWork",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.0.NEXT",
+            "unpackagedMetadata": {
+                "path": "unpackaged"
+            }
         },
         {
             "path": "unpackaged",
@@ -22,9 +28,5 @@
     "name": "unpackagedTest",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
-    "packageAliases": {
-        "UnpackagedTestWorks": "0Ho1R000000KymtSAC",
-        "UnpackagedTestDoesNotWork": "0Ho1R000000KymySAC"
-    }
+    "sourceApiVersion": "52.0"
 }
